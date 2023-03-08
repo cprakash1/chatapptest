@@ -1,0 +1,36 @@
+body{
+    background-color: lightblue;
+}
+.container{
+    margin: 5px auto;
+    margin-top: 100px;
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.inp{
+    justify-content: center;
+}
+input{
+    width: 400px;
+    margin-left: 450px;
+}
+button{
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.left{
+    
+    width: fit-content;
+    float: left;
+    clear: both;
+}
+.right{
+    width: fit-content;
+    float: right;
+    clear: both;
+}
